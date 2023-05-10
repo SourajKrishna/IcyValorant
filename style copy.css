@@ -1,0 +1,154 @@
+/* CSS for navigation bar */
+head {
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+#button1 {
+    background-color: #4CAF50; /* Set background color */
+    border: none; /* Remove border */
+    color: white; /* Set text color */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Set display type */
+    font-size: 16px; /* Set font size */
+    margin: 20px; /* Set margin */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+button {
+	background-color: #4db6ac;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+/* CSS for hero section */
+#hero {
+	background-image: url(hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#buttonback{
+
+
+    background-color: red;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px red(0, 0, 0, 0.1);
+}
+
+}
+#hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+#zoom{
+
+size: 3px;
+	align-items: flex-start;
+}
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ff4654;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/* CSS for agents section */
+#agents {
+	background-color: #f1f1f1;
+	padding: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.grid-item {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.grid-item h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.grid-item p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* CSS for maps section */
+#maps {
+	background-color: #fff;
+	padding: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#maps h2 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+#maps .grid-container {
+	grid-template-columns: repeat(2, 1fr);
+}
